@@ -1,0 +1,30 @@
+.card{
+    max-width: 100%;
+    height: fit-content;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 14%;
+}
+.letter{
+    cursor: pointer;
+    font-size: 3rem;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+}
+@keyframes clickMe {
+    0%{
+        background-color: blue;
+    }
+    50%{
+        background-color: red;
+        transform: scale(0.9);
+    }
+    100%{
+        background-color: blue;
+    }
+}
